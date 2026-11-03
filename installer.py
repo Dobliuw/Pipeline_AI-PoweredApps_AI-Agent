@@ -2,7 +2,7 @@
 """
 installer.py
 ============
-Instalador del flujo:  descripción de producto -> anonimizador.py -> agente STRIDE -> reporte
+Instalador del flujo:  descripción de producto -> anonymizer.py -> agente STRIDE -> reporte
 
 Dos caminos posibles:
 
@@ -12,7 +12,7 @@ Dos caminos posibles:
              instala Ollama si falta, descarga el modelo, crea el agente
              (Modelfile con el prompt de agent.md como SYSTEM) y deja todo listo.
 
-En ambos casos se escribe ~/.config/stride-agent/config.json, que anonimizador.py lee
+En ambos casos se escribe ~/.config/stride-agent/config.json, que anonymizer.py lee
 para saber a qué backend enviar el texto ya anonimizado, y se crea el lanzador
 ~/.local/bin/stride-review.
 
@@ -39,7 +39,7 @@ from pathlib import Path
 
 AQUI = Path(__file__).resolve().parent
 AGENT_MD = AQUI / "agent.md"
-ANONIMIZADOR = AQUI / "anonimizador.py"
+ANONIMIZADOR = AQUI / "anonymizer.py"
 
 CONF_DIR = Path(os.environ.get("XDG_CONFIG_HOME", Path.home() / ".config")) / "stride-agent"
 CONF_FILE = CONF_DIR / "config.json"
