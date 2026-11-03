@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/stride.jpeg" alt="Stride logo" width="420">
+  <img src="./assets/stride.png" alt="Stride logo" width="420">
 </p>
 
 <h1 align="center">STRIDE AI Agent</h1>
