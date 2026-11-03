@@ -1,3 +1,16 @@
+<p align="center">
+  <img src="./assets/stride.jpeg" alt="Stride logo" width="420">
+</p>
+
+<h1 align="center">STRIDE AI Agent</h1>
+
+<p align="center">
+  <b>AI Agent + Anonymizer tools.</b><br>
+  Install an AI Agent for STRIDE evaluations <code>locally</code> with Ollama or through <code>Code Agents</code> (Claude Code, Codex, Open Code, etc.).
+</p>
+
+----
+
 # STRIDE Security Reviewer for AI-Powered Applications
 
 A local pipeline that takes a free-text description of a product that uses AI (LLMs, RAG, agents), **anonymizes it on your machine**, and sends it to a specialized security-review agent. The agent produces a **STRIDE threat model with an AI-specific layer**, mapped against a reference security baseline and public standards: OWASP Top 10 for LLM Applications 2025, NIST AI RMF, ISO/IEC 42001 and MITRE ATLAS.
